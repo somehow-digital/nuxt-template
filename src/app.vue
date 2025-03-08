@@ -5,7 +5,11 @@ import { useHead, useAppConfig } from '#imports';
 const config = useAppConfig();
 
 useHead({
-	title: config.meta.title,
+	titleTemplate: '%s %separator %siteName',
+	templateParams: {
+		separator: '·',
+		siteName: config.meta.title,
+	},
 	meta: [
 		{
 			name: 'description',
