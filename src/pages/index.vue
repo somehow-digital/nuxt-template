@@ -1,5 +1,12 @@
 <script setup lang="ts">
-import { definePageMeta } from '#imports';
+import { definePageMeta, useAppConfig, useHead } from '#imports';
+
+const config = useAppConfig();
+
+useHead({
+	title: config.meta.title,
+	titleTemplate: null,
+});
 
 definePageMeta({
 	layout: 'default',
