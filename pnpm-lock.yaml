@@ -38,7 +38,7 @@ importers:
         version: 1.1.0(@commitlint/cli@19.8.0(@types/node@22.13.10)(typescript@5.8.2))(cspell@8.17.5)
       '@somehow-digital/cspell-dictionary':
         specifier: ^2.0.0
-        version: 2.5.0(cspell@8.17.5)
+        version: 2.6.0(cspell@8.17.5)
       '@somehow-digital/eslint-config':
         specifier: ^3.0.0
         version: 3.0.3(@types/eslint@9.6.1)(eslint@9.22.0(jiti@2.4.2))(prettier@3.5.3)(typescript@5.8.2)
@@ -1239,8 +1239,8 @@ packages:
     peerDependencies:
       cspell: ^8.8.1
 
-  '@somehow-digital/cspell-dictionary@2.5.0':
-    resolution: {integrity: sha512-hieVIXjm9HIMR+j0ydPIlTDBDiUPgPXB30OIikUeZaOkPznZ9eSXpQ2bUa8pW2esCVxQtzCuFR1KgLy6DDgsBQ==}
+  '@somehow-digital/cspell-dictionary@2.6.0':
+    resolution: {integrity: sha512-sFccvbQlFj4deKWJkd4x+8YCt+jRi5/Af2wyjmMMW/fhLvPnrppIHN6QDBGopPFdU1/+NT+wDq2C38X3VuO0DQ==}
     engines: {node: '>=22', pnpm: '>=9'}
     peerDependencies:
       cspell: ^8.13.0
@@ -5882,7 +5882,7 @@ snapshots:
       cspell: 8.17.5
       cspell-lib: 8.17.5
 
-  '@somehow-digital/cspell-dictionary@2.5.0(cspell@8.17.5)':
+  '@somehow-digital/cspell-dictionary@2.6.0(cspell@8.17.5)':
     dependencies:
       '@cspell/dict-de-de': 4.0.3
       cspell: 8.17.5
