@@ -3,9 +3,5 @@ export default defineNuxtConfig({
 	devtools: {
 		enabled: true,
 	},
-	imports: {
-		autoImport: false,
-	},
 	modules: ['@unocss/nuxt'],
-	srcDir: 'src/',
 });

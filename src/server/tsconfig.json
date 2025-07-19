@@ -1,3 +1,0 @@
-{
-	"extends": ["@somehow-digital/typescript-config/basic", "../../.nuxt/tsconfig.server.json"]
-}

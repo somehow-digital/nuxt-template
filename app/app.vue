@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import '@unocss/reset/tailwind.css';
-import { useHead, useAppConfig } from '#imports';
 
 const config = useAppConfig();
 

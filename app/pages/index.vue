@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { definePageMeta, useAppConfig, useHead } from '#imports';
-
 const config = useAppConfig();
 
 useHead({
