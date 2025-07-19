@@ -1,6 +1,6 @@
 {
 	"extends": ["@somehow-digital/typescript-config/basic"],
-	"files": [],
+	"include": ["*.js"],
 	"references": [
 		{
 			"path": "./.nuxt/tsconfig.app.json"
