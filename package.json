@@ -1,17 +1,10 @@
 {
-	"private": true,
 	"type": "module",
+	"private": true,
 	"packageManager": "pnpm@10.13.1",
 	"engines": {
 		"node": ">=22",
 		"pnpm": ">=10"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@parcel/watcher",
-			"esbuild",
-			"oxc-resolver"
-		]
 	},
 	"scripts": {
 		"build": "nuxt build",
@@ -22,13 +15,11 @@
 		"prepare:husky": "husky",
 		"prepare:nuxt": "nuxt prepare",
 		"lint": "concurrently --group --prefix-colors 'auto' 'pnpm:lint:*'",
-		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
-		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
-		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
+		"lint:eslint": "eslint .",
+		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files .",
 		"lint:knip": "knip --no-progress",
 		"fix": "concurrently --group --prefix-colors 'auto' 'pnpm:fix:*'",
-		"fix:eslint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
-		"fix:prettier": "prettier --write '**/*.{md,json,yml,yaml}'",
+		"fix:eslint": "eslint --fix .",
 		"fix:knip": "knip --fix --no-progress --workspace ."
 	},
 	"dependencies": {
@@ -42,10 +33,10 @@
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.3.0",
+		"@nuxt/eslint": "^1.6.0",
 		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^2.0.0",
-		"@somehow-digital/eslint-config": "^3.0.0",
-		"@somehow-digital/prettier-config": "^3.0.0",
+		"@somehow-digital/eslint-config": "^4.0.0",
 		"@somehow-digital/typescript-config": "^3.0.0",
 		"@somehow-digital/unocss-preset": "^2.0.0",
 		"@types/node": "^22.8.7",
@@ -55,7 +46,13 @@
 		"husky": "^9.0.11",
 		"knip": "^5.11.0",
 		"lint-staged": "^16.0.0",
-		"prettier": "^3.2.5",
 		"typescript": "^5.4.5"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"@parcel/watcher",
+			"esbuild",
+			"oxc-resolver"
+		]
 	}
 }
