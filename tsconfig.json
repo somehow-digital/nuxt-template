@@ -1,3 +1,18 @@
 {
-	"extends": ["@somehow-digital/typescript-config/basic", "./.nuxt/tsconfig.json"]
+	"extends": ["@somehow-digital/typescript-config/basic"],
+	"include": ["*.js"],
+	"references": [
+		{
+			"path": "./.nuxt/tsconfig.app.json"
+		},
+		{
+			"path": "./.nuxt/tsconfig.server.json"
+		},
+		{
+			"path": "./.nuxt/tsconfig.shared.json"
+		},
+		{
+			"path": "./.nuxt/tsconfig.node.json"
+		}
+	]
 }
