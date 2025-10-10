@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@iconify-json/ri':
         specifier: ^1.2.5
-        version: 1.2.5
+        version: 1.2.6
       '@unocss/nuxt':
         specifier: ^66.0.0
         version: 66.5.2(magicast@0.3.5)(postcss@8.5.6)(vite@7.1.9(@types/node@22.18.9)(jiti@2.6.1)(terser@5.44.0)(yaml@2.8.1))(webpack@5.102.0(esbuild@0.25.10))
@@ -883,8 +883,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify-json/ri@1.2.5':
-    resolution: {integrity: sha512-kWGimOXMZrlYusjBKKXYOWcKhbOHusFsmrmRGmjS7rH0BpML5A9/fy8KHZqFOwZfC4M6amObQYbh8BqO5cMC3w==}
+  '@iconify-json/ri@1.2.6':
+    resolution: {integrity: sha512-tGXRmXtb8oFu8DNg9MsS1pywKFgs9QZ4U6LBzUamBHaw3ePSiPd7ouE64gzHzfEcR16hgVaXoUa+XxD3BB0XOg==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -6637,7 +6637,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@iconify-json/ri@1.2.5':
+  '@iconify-json/ri@1.2.6':
     dependencies:
       '@iconify/types': 2.0.0
 
