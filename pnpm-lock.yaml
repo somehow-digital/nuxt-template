@@ -50,7 +50,7 @@ importers:
         version: 3.0.0(typescript@6.0.2)
       '@somehow-digital/unocss-preset':
         specifier: ^2.0.0
-        version: 2.2.1(unocss@66.6.7(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@unocss/webpack@66.6.7(webpack@5.105.4(esbuild@0.27.7)))(vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(terser@5.46.1)(yaml@2.8.3)))
+        version: 2.3.0(unocss@66.6.7(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@unocss/webpack@66.6.7(webpack@5.105.4(esbuild@0.27.7)))(vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(terser@5.46.1)(yaml@2.8.3)))
       '@types/node':
         specifier: ^24.0.0
         version: 24.12.2
@@ -2398,8 +2398,8 @@ packages:
     peerDependencies:
       typescript: ^5.8.2
 
-  '@somehow-digital/unocss-preset@2.2.1':
-    resolution: {integrity: sha512-NRgEd+se4XXIo3NI6PackNQvwU4UkzAzDpr4y4xHoCAn2wdEwsXzNdHp36v4+0Wjx6E5JucPk+AIXaFfm3k+Yw==}
+  '@somehow-digital/unocss-preset@2.3.0':
+    resolution: {integrity: sha512-LFp3Y6GVhmenziosyOgza0+fUdpHe9ZSgiMlhk9JlfIlfc1+NVbMC6GgGJ+1FqMxakzj29aEDXIWu3J+Mjnm0w==}
     engines: {node: '>=22', pnpm: '>=10'}
     peerDependencies:
       unocss: ^66.0.0
@@ -8407,7 +8407,7 @@ snapshots:
     dependencies:
       typescript: 6.0.2
 
-  '@somehow-digital/unocss-preset@2.2.1(unocss@66.6.7(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@unocss/webpack@66.6.7(webpack@5.105.4(esbuild@0.27.7)))(vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(terser@5.46.1)(yaml@2.8.3)))':
+  '@somehow-digital/unocss-preset@2.3.0(unocss@66.6.7(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@unocss/webpack@66.6.7(webpack@5.105.4(esbuild@0.27.7)))(vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(terser@5.46.1)(yaml@2.8.3)))':
     dependencies:
       '@somehow-digital/styles': 2.0.0
       unocss: 66.6.7(@emnapi/core@1.9.2)(@emnapi/runtime@1.9.2)(@unocss/webpack@66.6.7(webpack@5.105.4(esbuild@0.27.7)))(vite@7.3.1(@types/node@24.12.2)(jiti@2.6.1)(terser@5.46.1)(yaml@2.8.3))
