@@ -40,7 +40,7 @@
 		"@somehow-digital/typescript-config": "^3.0.0",
 		"@somehow-digital/unocss-preset": "^2.0.0",
 		"@types/node": "^24.0.0",
-		"concurrently": "^9.0.0",
+		"concurrently": "^10.0.0",
 		"cspell": "^10.0.0",
 		"eslint": "^10.0.0",
 		"husky": "^9.0.11",
