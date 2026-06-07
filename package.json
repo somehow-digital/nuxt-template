@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"private": true,
-	"packageManager": "pnpm@10.34.1",
+	"packageManager": "pnpm@11.5.2",
 	"engines": {
 		"node": ">=22",
 		"pnpm": ">=10"
@@ -47,12 +47,5 @@
 		"knip": "^6.0.0",
 		"lint-staged": "^17.0.0",
 		"typescript": "^6.0.0"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@parcel/watcher",
-			"esbuild",
-			"oxc-resolver"
-		]
 	}
 }

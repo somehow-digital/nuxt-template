@@ -1,0 +1,12 @@
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  unrs-resolver: true
+blockExoticSubdeps: true
+enablePrePostScripts: false
+ignorePatchFailures: false
+optimisticRepeatInstall: true
+shellEmulator: true
+trustPolicy: no-downgrade
+trustPolicyIgnoreAfter: 10080
+verifyDepsBeforeRun: install
